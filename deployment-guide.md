@@ -1,35 +1,37 @@
-# Deployment Guide for Jewelry Store
-
-## Overview
-This guide provides step-by-step instructions for deploying the Jewelry Store application using Docker and GitHub Actions.
+# Deployment Guide for Jewelry Store Application
 
 ## Prerequisites
-- Ensure Docker and Docker Compose are installed on the server.
-- Configure environment variables for database connections and any API keys required.
+- Docker installed on the server
+- Docker Compose installed on the server
+- Access to MongoDB instance
 
 ## Steps to Deploy
-1. **Clone the Repository**
+1. Clone the repository:
    ```bash
    git clone https://github.com/yrks12/jewelry-store.git
    cd jewelry-store
    ```
 
-2. **Build Docker Images**
-   ```bash
-   docker-compose build
-   ```
-
-3. **Run the Application**
+2. Build and start the application using Docker Compose:
    ```bash
    docker-compose up -d
    ```
 
-4. **Access the Application**
-   - Frontend: Open your browser and go to `http://localhost:3000`
-   - Backend: API is accessible at `http://localhost:5000/api`
+3. Ensure the application is running by accessing `http://localhost:3000`
+4. Check logs to ensure there are no errors:
+   ```bash
+   docker-compose logs
+   ```
 
-## Monitoring and Logging
-- Ensure Prometheus and Grafana are set up for monitoring application performance.
+## Monitoring and Maintenance
+- Regularly monitor logs for errors and performance metrics.
+- Schedule backups for the MongoDB database.
+- Keep dependencies up to date by periodically checking for updates and running:
+   ```bash
+   npm install
+   ```
 
-## Backup and Recovery
-- Regularly back up the MongoDB database to prevent data loss.
+## Troubleshooting
+- If there are issues starting the application, check:
+  - Docker logs for the backend service.
+  - Ensure MongoDB service is running properly.
