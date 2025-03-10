@@ -1,10 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+document.addEventListener('DOMContentLoaded', () => {
+    const addToCartButtons = document.querySelectorAll('button');
+    addToCartButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Added to Cart!');
+            // Logic to add the product to the cart will go here.
+        });
+    });
+});
