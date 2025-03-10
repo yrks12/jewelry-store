@@ -1,29 +1,40 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    color: #333333;
+    color: #1F2937;
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+header {
+    background-color: #FBBF24;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
 }
 
 button {
-    background: linear-gradient(90deg, #DAB8FF, #FFB8D1);
-    color: white;
-    padding: 10px 15px;
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    opacity: 0.8;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
+    background-color: #1F2937;
 }
