@@ -1,44 +1,41 @@
-# Requirements Specification Document
+# Requirements Specification Document for Jewelry Store E-Commerce
 
 ## 1. Project Overview
-The "Jewelry Store" is an e-commerce website dedicated to offering handmade jewelry items to customers. The platform will provide a comprehensive product catalog, a user-friendly shopping cart, and efficient payment integration to facilitate a seamless shopping experience. 
+An e-commerce website dedicated to selling handmade jewelry. The website will feature a product catalog, a shopping cart for customers to save their selections, and integrated payment processing for seamless transactions.
 
 ## 2. User Personas
-- **Customer**: 
-  - Age: 18-55
-  - Tech-savvy and values unique handmade products.
-  - Looking for a user-friendly shopping experience with easy navigation and secure payment options.
-
-- **Admin**: 
-  - Age: 25-50
-  - Responsible for managing products, orders, and user accounts.
-  - Requires access to backend features for product management and order tracking.
+- **The Jewelry Enthusiast**: Loves unique hand-made pieces, regularly shops online, values quality over price.
+- **The Gifter**: Purchases jewelry as gifts, looking for elegant packaging and fast shipping.
+- **The First-Time Buyer**: Navigates e-commerce for the first time, needs guided support.
 
 ## 3. Functional Requirements
-- User authentication (registration, login, password recovery).
-- Product catalog with search and filter functionality.
-- Individual product pages with descriptions, images, and prices.
-- Shopping cart feature allowing users to add/remove items.
-- Secure payment processing integration.
-- Order confirmation and tracking for users.
-- Admin panel for managing products, users, and orders.
+- **Product Catalog**: 
+  - Browse products by category.
+  - View product details, including images, descriptions, and prices.
+- **Shopping Cart**:
+  - Add or remove products.
+  - View total price and itemized list.
+- **User Accounts**: 
+  - Create and manage personal accounts.
+  - Save favorite items.
+- **Payment Integration**:
+  - Support for credit card and third-party payment services like PayPal.
 
-## 4. Non-functional Requirements
-- Performance: The website should load within 3 seconds.
-- Scalability: Capable of handling up to 10,000 concurrent users.
-- Security: Protection against SQL injection, XSS, and other vulnerabilities.
-- Accessibility: The site must comply with WCAG 2.1 standards.
+## 4. Non-Functional Requirements
+- **Performance**: Pages should load within 2 seconds.
+- **Security**: SSL encryption for user data and payment transactions.
+- **Usability**: Intuitive user interface that minimizes clicks for product purchase.
+- **Accessibility**: Compliant with WCAG 2.1 standards.
 
 ## 5. Technical Specifications
-- Frontend: React.js
-- Backend: Node.js with Express.js
-- Database: MongoDB
-- Payment Gateway: Stripe or PayPal
-- Hosting: AWS or Heroku
+- **Front-End Technologies**: HTML, CSS, JavaScript,
+- **Back-End Technologies**: Node.js, Express.js, MongoDB for the database.
+- **Hosting**: AWS or Heroku.
 
 ## 6. Timeline and Milestones
-- **Week 1-2**: Requirement gathering and design.
-- **Week 3-5**: Frontend development.
-- **Week 6-8**: Backend development.
-- **Week 9**: Integration and testing.
-- **Week 10**: Launch and post-launch support.
+- **Week 1-2**: Requirement analysis and wireframe design.
+- **Week 3-4**: Front-end development.
+- **Week 5**: Back-end development and database integration.
+- **Week 6**: Testing phase.
+- **Week 7**: Deployment to production.
+- **Week 8**: Post-launch support and any immediate feedback collection.
