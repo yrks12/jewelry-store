@@ -1,7 +1,21 @@
-FROM node:14 as build
-WORKDIR /app
-COPY ./frontend/package.json ./frontend/package-lock.json ./
+# Dockerfile for Jewelry Store Backend
+
+FROM node:14
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install dependencies
 RUN npm install
-COPY ./frontend ./
-RUN npm run build
-CMD ["npm", "start"]
+
+# Copy the rest of the application code
+COPY . .
+
+# Expose the port the app runs on
+EXPOSE 3000
+
+# Start the application
+CMD [ "node", "server.js" ]
