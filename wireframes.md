@@ -1,20 +1,23 @@
 # Wireframes
 
-## 1. Homepage
-- Featured jewelry items
-- Search bar
-- Categories for navigation
-- Grid layout of highlighted products
+## Homepage
+- Header with logo, navigation, account options.
+- Hero section for featured products.
+- Product categories.
 
-## 2. Product Page
-- Large product image
-- Product details with "Add to Cart"
-- Related products section
+## Product Listing
+- Filters sidebar.
+- Grid layout for products.
 
-## 3. Shopping Cart
-- List of added items
-- Quantity adjustments
-- Secure checkout button
+## Product Detail
+- Large image, title, description, price.
+- Add to Cart button.
 
-## 4. Admin Panel
-- Forms and tables for management.
+## Shopping Cart
+- List view of items, total price, options to modify.
+
+## Checkout Page
+- Fields for shipping and payment.
+
+## User Account Page
+- User details and past orders.
