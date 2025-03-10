@@ -1,17 +1,17 @@
 # Design System
 
 ## Color Scheme
-- Primary Color: #DAB8FF (Lavender)
-- Secondary Color: #FFB8D1 (Light Pink)
-- Accent Color: #FFC700 (Gold)
+- Primary Color: #FBBF24 (Amber)
+- Secondary Color: #1F2937 (Dark Slate)
 - Background Color: #FFFFFF (White)
-- Text Color: #333333 (Dark Gray)
+- Button Color: #3B82F6 (Blue)
 
 ## Typography
-- Headings: "Montserrat", Bold, 24px
-- Body text: "Roboto", Regular, 14px
+- Headings: "Montserrat", sans-serif
+- Body Text: "Roboto", sans-serif
+- Button Text: Size 16px, uppercase
 
 ## Components
-- **Buttons**: Large, rounded corners, gradient backgrounds.
-- **Forms**: Clear labels, responsive design.
-- **Icons**: Consistent icon set for navigation and features.
+- Buttons use accent color with consistent padding and rounded corners.
+- Cards utilized for product listings.
+- Form fields with clear labels and consistent styling.
