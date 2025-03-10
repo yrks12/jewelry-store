@@ -1,16 +1,18 @@
-# User Flow Diagrams
+# User Flows
 
-## Customer Flow
-1. Land on Homepage.
-2. Use Search or Browse Categories.
-3. Click on Product.
-4. Add to Cart.
-5. View Cart.
-6. Proceed to Checkout.
-7. Complete Payment.
+## Shopping Flow
+1. User lands on Homepage.
+2. Browses products.
+3. Clicks on a product.
+4. Views details.
+5. Adds product to cart.
+6. Proceeds to checkout.
+7. Enters shipping details.
+8. Completes payment.
 
-## Admin Flow
-1. Login to Admin Panel.
-2. View Dashboard.
-3. Manage Products/Orders.
-4. Logout.
+## Account Creation Flow
+1. User clicks "Sign Up".
+2. Fills in the registration form.
+3. Confirms email address.
+4. Logs in.
+5. Views past orders and account details.
