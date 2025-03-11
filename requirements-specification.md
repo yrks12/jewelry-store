@@ -1,4 +1,4 @@
-# Requirements Specification Document
+# Complete Requirements Specification Document for Jewelry Store E-commerce Project
 
 ## 1. Project Overview
 The "jewelry-store" project is an e-commerce platform aimed at selling handmade jewelry items. The site will feature a product catalog, a shopping cart for users to manage items they wish to purchase, and payment integration to facilitate secure transactions.
@@ -31,3 +31,8 @@ The "jewelry-store" project is an e-commerce platform aimed at selling handmade 
 - Backend Development: Weeks 7-9
 - Testing Phase: Weeks 10-11
 - Launch: Week 12
+
+## Key Project Information
+- **Project Name**: Jewelry Store
+- **Main Features**: Product catalog, shopping cart, secure checkout, admin panel
+- **Technical Stack**: React.js, Node.js, Express.js, MongoDB, Stripe/PayPal
